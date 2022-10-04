@@ -30,8 +30,19 @@ var clearEntries = () => {
     $("#gallons").value = "";
     $("#mpg").value = "";
 };
-
+var clearMiles = () => {
+    $("#miles").value = "";
+   
+};
+var clearGallons = () => {
+    $("#gallons").value = "";
+   
+};
 document.addEventListener("DOMContentLoaded", () => {
     $("#calculate").addEventListener("click", processEntries);
     $("#miles").focus();
 });
+document.getElementById("mpg").addEventListener("dblclick", clearEntries);
+document.getElementById("miles").addEventListener("focus", clearMiles);
+document.getElementById("gallons").addEventListener("focus", clearGallons);
+document.getElementById("gallons").addEventListener("focusout", processEntries);
