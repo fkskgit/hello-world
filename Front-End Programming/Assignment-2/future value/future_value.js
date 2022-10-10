@@ -42,7 +42,7 @@ document.write(`<p><label>Interest rate:</label> ${rate}</p>`);
 document.write(`<p><label>Years:</label> ${years}</p>`);
 document.write(`<p><label>Future Value:</label> ${futureValue.toFixed(2)}</p>`);
 //display
-document.write(" <b>Future Value with Yearly Interest</b><br>");
+document.write(" <b>Future Value with Monthly Interest</b><br>");
 document.write(`<p><label>Investment amount:</label> ${investment}</p>`);
 document.write(`<p><label>Interest rate:</label> ${rate}</p>`);
 document.write(`<p><label>Years:</label> ${years}</p>`);
